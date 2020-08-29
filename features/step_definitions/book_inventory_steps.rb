@@ -1,3 +1,5 @@
+# To run: bundle exec cucumber features/book_inventory.feature
+
 Given('I have populated my inventory with several books') do
   FactoryBot.create(:book,
                     :user => @registered_user,
