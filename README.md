@@ -24,7 +24,8 @@ Things you may want to cover:
   ` $ rake db:migrate `
 
 * How to run the test suite\
-  ` $ bundle exec cucumber `
+  ` $ bundle exec cucumber `\
+  ` $ bundle exec rspec `
 
 * Services (job queues, cache servers, search engines, etc.)
 
