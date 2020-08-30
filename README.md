@@ -6,10 +6,10 @@
 * System dependencies
   - PostgreSQL on Docker\
     To create the container:\
-    ` $ docker run --name semaphore_postgres -e POSTGRES_PASSWORD=<mysecretpassword> -d -p 5433:5432 postgres `\
+    ` $ docker run --name semaphore_postgres -e POSTGRES_PASSWORD=<mysecretpassword> -d -p 5433:5432 postgres `
 
     To run the container:\
-    ` $ docker start semaphore_postgres `\
+    ` $ docker start semaphore_postgres `
 
 * Database creation\
   ` $ rake db:create `
